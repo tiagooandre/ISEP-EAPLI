@@ -1,0 +1,276 @@
+commit 4e0c11f138671c4e7d24679d6a5b719e17bbecc6
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 13:24:36 2022 +0100
+
+    Small fix
+
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/AGVDockBootstrapper.java
+M	base.core/src/main/java/eapli/base/warehousemanagement/application/ParserJSON.java
+
+commit 73128716d23cca70d5110383bf6de5963df00421
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 12:05:02 2022 +0100
+
+    US-5001 | US-5002: Implementation: Small bug-fix
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit f106f0c4411edeea9bf8bf5c4363d2918a0a4929
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 03:18:59 2022 +0100
+
+    US-5001 | US-5002: Implementation: Some small fixes and reformatted module "agvmanager"
+
+M	agvmanager/src/main/java/AGVDigitalTwin.java
+M	agvmanager/src/main/java/AGVManager.java
+
+commit 2c34906c4c57a1b1ebd3f1a3d50e6b1a530991f9
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 03:02:46 2022 +0100
+
+    US-5001 | US-5002: Implementation: Added an empty constructor to class Task
+
+M	agvmanager/src/main/java/domain/Task.java
+
+commit 5bc0f76536f4c2e6f1ac48650ad8abbc4e6076fe
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 03:02:23 2022 +0100
+
+    US-5001 | US-5002: Implementation: Renamed Client to AGVDigitalTwin
+
+A	agvmanager/src/main/java/AGVDigitalTwin.java
+D	agvmanager/src/main/java/BaseClient.java
+D	agvmanager/src/main/java/domain/AGVDigitalTwin.java
+
+commit 77c5150041ad0a850e77a4e709d505562992f043
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 03:00:52 2022 +0100
+
+    US-5001 | US-5002: Implementation: Renamed BaseServer to Server
+
+R075	agvmanager/src/main/java/BaseServer.java	agvmanager/src/main/java/Server.java
+
+commit 6af4dda1eddfe12ae589a5fe00b697218d93db8e
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Fri Jun 3 03:00:40 2022 +0100
+
+    US-5001 | US-5002: Implementation: Renamed BaseClient to Client
+
+M	agvmanager/src/main/java/Client.java
+
+commit 587ccdfeff6cc58d0c3add8cdf80b3fa533ce59d
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:52:48 2022 +0100
+
+    US-5001 | US-5002: Implementation: Changes to Client class so that it uses the controllers for the Utils
+
+M	agvmanager/src/main/java/Client.java
+
+commit 914b3bb3db5603399d30bbe82d995bd03a8efad0
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:51:07 2022 +0100
+
+    US-5001 | US-5002: Implementation: Changed the return type from void to boolean on the method executeQuery from DBUtils class
+
+M	agvmanager/src/main/java/utils/DBUtils.java
+
+commit d2d768db5d98a943d5ab80200163a100d6d5a05e
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:50:18 2022 +0100
+
+    US-5001 | US-5002: Implementation: Removed methods sendEmptyPacket, sendDelayedPacket and sleep from PacketUtils
+
+M	agvmanager/src/main/java/utils/PacketUtils.java
+
+commit d95151a0ddb058b9f45e30c9da8495b3c8d21365
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:49:14 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created PacketController
+
+A	agvmanager/src/main/java/controller/PacketController.java
+
+commit 000a984ad61ceb1370c9783d025dfc6d25e292bd
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:49:02 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created DBController
+
+A	agvmanager/src/main/java/controller/DBController.java
+
+commit d18ea33a3438f43fb7d4751860d3a95683fc4d58
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:48:09 2022 +0100
+
+    US-5001 | US-5002: Implementation: Removed methods getObject() and getBytes() from Coordinates and added the interface Bytable
+
+M	agvmanager/src/main/java/domain/Coordinates.java
+
+commit a810e4e189923c6b7ab844ba83a6bb6fc5628465
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:47:56 2022 +0100
+
+    US-5001 | US-5002: Implementation: Removed methods getObject() and getBytes() from Task and added the interface Bytable
+
+M	agvmanager/src/main/java/domain/Task.java
+
+commit ee7cea82661bbfbb61d5f34c410f4a91e6167d87
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:45:01 2022 +0100
+
+    US-5001 | US-5002: Implementation: Removed Server class
+
+D	agvmanager/src/main/java/Server.java
+M	agvmanager/src/main/java/domain/Bytable.java
+
+commit a2cf43413ad901a086f934bb243b530841bb0259
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:43:27 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created UtilsController
+
+A	agvmanager/src/main/java/controller/UtilsController.java
+
+commit 21afc6f42044facc1cb2f842ed23542c60b94de6
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:40:09 2022 +0100
+
+    US-5001 | US-5002: Implementation: Added to class interface Bytable a method the covert an array of bytes back into an object
+
+M	agvmanager/src/main/java/domain/Bytable.java
+
+commit ff3b3cf87a633ff7aa59638d657ed6e1254b2859
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:39:28 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a class interface Bytable with the method the covert an object into an array of bytes
+
+A	agvmanager/src/main/java/domain/Bytable.java
+
+commit c8730ab035390a5b0385448e318d01d57fe876e2
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:37:13 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a class BaseServer with the main method for the AGV Manager
+
+A	agvmanager/src/main/java/BaseServer.java
+
+commit 580fe8dc42f5e83b50acdab6f7e2ca19bb7ab0de
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:36:56 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a class BaseClient with the main method for the AGV Digital Twins
+
+A	agvmanager/src/main/java/BaseClient.java
+
+commit b7e2fd4b49762a8e649de670ef5f629a37b048aa
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:34:42 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to update the state of AGV Digital Twins
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit b8835d2edf959085fb13826f44f9a570d2345fb8
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:34:18 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to update the AGV Digital Twins position
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit 74bd0a76544aea7a7a240ea4b0f708de3dd99cf0
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:33:38 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to assigns tasks to the AGV Digital Twins
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit 753719049ee52ce028c56758b364953fc06bc772
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:33:11 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to perform the handshake with a client
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit d8ce0d4a19efb39f2fc569b410048d80cdbb7679
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:32:48 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to perform the setup
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit 4ede11fb36381698e4d192652c401cbda1f8503a
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:32:08 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created subclass TcpThread of class AGVManager
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit ab3147838f99515a7494389ffd3f80938bfc77f4
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:31:54 2022 +0100
+
+    US-5001 | US-5002: Implementation: Removed TcpThread class
+
+D	agvmanager/src/main/java/TcpThread.java
+
+commit c518d11ff28d947cd89b13cbf124392ce985354c
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:31:12 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created subclass DatabaseManager of class AGVManager
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit 13807b276a6ef4123f7c253255bb3a72e4ca2bd1
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:30:52 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created subclass ConnectionManager of class AGVManager
+
+M	agvmanager/src/main/java/AGVManager.java
+
+commit 5501d9926b1c75ec2d452952ed120a494842c782
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:27:36 2022 +0100
+
+    US-5001 | US-5002: Implementation: Renamed class Server to AGVManager
+
+A	agvmanager/src/main/java/AGVManager.java
+
+commit ddef0c1bd3d1035c739c47c04c540b8acd2ebf5f
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:23:47 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a class Utils
+
+A	agvmanager/src/main/java/utils/Utils.java
+
+commit 61549d188ee8a3d723fb7862d22d32b789896fd0
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 15:21:03 2022 +0100
+
+    US-5001 | US-5002: Implementation: Created a class AGVDigitalTwin
+
+A	agvmanager/src/main/java/domain/AGVDigitalTwin.java
+
+commit 01b6a1282d607885bb4055df3a28bf66b809512e
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 00:41:24 2022 +0100
+
+    Commit test fix
+
+M	agvmanager/src/main/java/Client.java
+
+commit fe34b6e285135dd1c46363452919a394e59f0070
+Author: Hugo Carvalho <1210813@isep.ipp.pt>
+Date:   Thu Jun 2 00:40:26 2022 +0100
+
+    Commit test
+
+M	agvmanager/src/main/java/Client.java

@@ -1,0 +1,53 @@
+4e0c11f,2022-06-03 13:24:36 +0100,Hugo Carvalho,1210813@isep.ipp.pt,Small fix
+742c13e,2022-06-03 12:24:54 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Desing: Updated System Sequence Diagram - SSD
+d113c83,2022-06-03 12:24:36 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Desing: Updated Sequence Diagram - SD
+c7aba47,2022-06-03 12:24:12 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Analysis: Updated ProcessoEngenhariaFuncionalidade.md
+7312871,2022-06-03 12:05:02 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Small bug-fix
+c8e42af,2022-06-03 09:11:18 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Created main to do some experimental queries about Product and ShopCart
+b6dafe6,2022-06-03 09:09:21 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Added public methods of OrdersServer in OrdersServerController
+5191e9a,2022-06-03 09:08:38 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Added a create connection, execute-update and execute methods to the OrdersServer
+1aef52e,2022-06-03 09:07:23 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Create module to OrdersServer and added new modules to pom
+7b300b8,2022-06-03 09:06:48 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Create module to OrdersServer
+b2132b9,2022-06-03 09:06:14 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Create module to Customer App
+f106f0c,2022-06-03 03:18:59 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Some small fixes and reformatted module "agvmanager"
+2c34906,2022-06-03 03:02:46 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Added an empty constructor to class Task
+5bc0f76,2022-06-03 03:02:23 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed Client to AGVDigitalTwin
+77c5150,2022-06-03 03:00:52 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed BaseServer to Server
+6af4dda,2022-06-03 03:00:40 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed BaseClient to Client
+587ccdf,2022-06-02 15:52:48 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Changes to Client class so that it uses the controllers for the Utils
+914b3bb,2022-06-02 15:51:19 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Changed the return type from void to boolean on the method executeQuery from DBUtils class
+d2d768d,2022-06-02 15:50:18 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed methods sendEmptyPacket, sendDelayedPacket and sleep from PacketUtils
+d95151a,2022-06-02 15:49:14 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created PacketController
+000a984,2022-06-02 15:49:02 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created DBController
+d18ea33,2022-06-02 15:48:09 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed methods getObject() and getBytes() from Coordinates and added the interface Bytable
+a810e4e,2022-06-02 15:47:56 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed methods getObject() and getBytes() from Task and added the interface Bytable
+ee7cea8,2022-06-02 15:45:01 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed Server class
+a2cf434,2022-06-02 15:43:27 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created UtilsController
+21afc6f,2022-06-02 15:40:09 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Added to class interface Bytable a method the covert an array of bytes back into an object
+ff3b3cf,2022-06-02 15:39:28 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class interface Bytable with the method the covert an object into an array of bytes
+c8730ab,2022-06-02 15:37:13 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class BaseServer with the main method for the AGV Manager
+580fe8d,2022-06-02 15:36:56 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class BaseClient with the main method for the AGV Digital Twins
+b7e2fd4,2022-06-02 15:34:42 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to update the state of AGV Digital Twins
+b8835d2,2022-06-02 15:34:18 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to update the AGV Digital Twins position
+74bd0a7,2022-06-02 15:33:38 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to assigns tasks to the AGV Digital Twins
+7537190,2022-06-02 15:33:11 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to perform the handshake with a client
+d8ce0d4,2022-06-02 15:32:48 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to perform the setup
+4ede11f,2022-06-02 15:32:08 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created subclass TcpThread of class AGVManager
+ab31478,2022-06-02 15:31:54 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed TcpThread class
+c518d11,2022-06-02 15:31:12 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created subclass DatabaseManager of class AGVManager
+13807b2,2022-06-02 15:30:52 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created subclass ConnectionManager of class AGVManager
+5501d99,2022-06-02 15:27:36 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed class Server to AGVManager
+ddef0c1,2022-06-02 15:23:47 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class Utils
+61549d1,2022-06-02 15:21:03 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class AGVDigitalTwin
+30b56ed,2022-06-02 09:37:03 +0100,Tiago AndrÈ Macedo Pinto,1200626@isep.ipp.pt,US3000: Implementation: Updated questionnaires and added one more.
+71eebf6,2022-06-02 09:36:26 +0100,Tiago AndrÈ Macedo Pinto,1200626@isep.ipp.pt,US3000: Implementation: Improvements in the grammar Questionnaire.
+01b6a12,2022-06-02 00:41:24 +0100,Hugo Carvalho,1210813@isep.ipp.pt,Commit test fix
+fe34b6e,2022-06-02 00:40:26 +0100,Hugo Carvalho,1210813@isep.ipp.pt,Commit test
+fa0ae3c,2022-06-01 19:20:39 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2003: Implementation: Improvements in the code.
+0ccc0e1,2022-06-01 19:18:24 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2003: Design: Updated System Sequence Diagram due to an improvement in the code
+19f7f1f,2022-06-01 19:17:59 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2003: Design: Updated Sequence Diagram due to an improvement in the code
+87e8281,2022-06-01 15:35:51 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US4001 - Design - Fixed typos and added "apply patterns" to documentation
+254d256,2022-06-01 15:08:17 +0100,Hugo Carvalho,hhac@protonmail.com,Added the section "Applied patterns" to "ProcessoEngenhariaFuncionalidade.md"
+c71203c,2022-06-01 15:04:15 +0100,Hugo Carvalho,hhac@protonmail.com,Translated some portuguese words to english in the "ProcessoEngenhariaFuncionalidade.md" for US5001
+0215479,2022-06-01 15:00:20 +0100,Hugo Carvalho,hhac@protonmail.com,Fixed the port number the client connects to in the agvmanager module
+77b1d64,2022-05-31 03:03:41 +0100,Hugo Carvalho,hhac@protonmail.com,Fixed security issues for better stability on the agvmanager module

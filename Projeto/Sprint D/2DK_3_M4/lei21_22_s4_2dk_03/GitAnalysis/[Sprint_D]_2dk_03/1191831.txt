@@ -1,0 +1,55 @@
+commit c8e42af8a8d30f992b21bebdc9c9bf2c71f8af95
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:11:18 2022 +0100
+
+    US1901 - Implementation: Created main to do some experimental queries about Product and ShopCart
+
+A	ordersServer/src/main/java/DBMain.java
+
+commit b6dafe68b968bec5a076d0856df583c5f57c9c98
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:09:21 2022 +0100
+
+    US1901 - Implementation: Added public methods of OrdersServer in OrdersServerController
+
+A	ordersServer/src/main/java/controller/OrdersServerController.java
+
+commit 5191e9a9395a388de85dc026b27bff6755d89e07
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:08:38 2022 +0100
+
+    US1901 - Implementation: Added a create connection, execute-update and execute methods to the OrdersServer
+
+A	ordersServer/src/main/java/domain/OrdersServer.java
+
+commit 1aef52e3c74896c89e255a22ca95d85f7a1914fc
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:07:23 2022 +0100
+
+    US1901 - Implementation: Create module to OrdersServer and added new modules to pom
+
+A	ordersServer/pom.xml
+
+commit 7b300b80e2efdbbc8ad2a41fc62ce4c30cbe26a8
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:06:48 2022 +0100
+
+    US1901 - Implementation: Create module to OrdersServer
+
+M	pom.xml
+
+commit b2132b94e5cc9af50fed4a144d854fcc870988e8
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:06:14 2022 +0100
+
+    US1901 - Implementation: Create module to Customer App
+
+A	customerApp/pom.xml
+
+commit 87e828193ecba7c21396da8ec79ed0dff81d5c89
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 1 15:35:51 2022 +0100
+
+    US4001 - Design - Fixed typos and added "apply patterns" to documentation
+
+M	docs/Sprint C/US4001/ProcessoEngenhariaFuncionalidade.md

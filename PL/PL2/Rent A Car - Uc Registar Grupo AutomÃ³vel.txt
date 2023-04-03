@@ -1,0 +1,25 @@
+title  Rent A Car - Uc Registar Grupo Automóvel
+
+participant ":User" as user
+participant ":MainMenu" as menu
+participant ":GrupoAutomovelUI" as ui
+participant ":GrupoAutomovelController" as controller
+participant ":GrupoAutomovel" as ga 
+participant ":GrupoAutomovelRepositorio" as repo
+
+menu-->ui:create()
+ui-->controller:create()
+menu->+ui:registarGrupoAutomovel()
+ui-->user:pede dados
+user->ui:entra nome, portas, classe
+ui->controller:registarGrupoAutomovel(nome,portas,classe)
+controller-->ga:grupoAutomovel=create(nome,portas,classe)
+controller-->repo:create()
+controller->repo:add(grupoAutomovel)
+controller-->ui:
+ui->ui:showGrupoAutomovel()
+ui-->user:info ga
+ui-->-menu:
+
+
+
